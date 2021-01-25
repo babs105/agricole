@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 const classes = {
   heroSection:
     "w-full h-screen flex flex-col-reverse space-y-4  sm:flex-row justify-around items-center px-10 bg-orange-600",
-
   textContainer: (isAnimated) =>
-    `${isAnimated ? "scale-y-100" : "scale-y-0"} flex flex-col space-y-5 min-w-sm justify-between items-center sm:flex-col justify-center sm:items-start transform transition duration-1000 ease-in-out `,
+    `${
+      isAnimated ? "scale-y-100" : "scale-y-0"
+    } flex flex-col space-y-5 min-w-sm justify-between items-center sm:flex-col justify-center sm:items-start transform transition duration-1000 ease-in-out `,
   headlineText: "font-quicksand text-5xl font-bold text-gray-200",
   descriptionText:
     "text-center sm:text-left font-quicksand font-light max-w-lg text-xl text-gray-200",

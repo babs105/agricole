@@ -64,7 +64,6 @@ function NavBarApp() {
           {showMenuMobile ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={classes.menuMobile(showMenuMobile)}>
-        
           <li className={classes.menuItem} onClick={closeMobileMenu}>
             <Link to="/" className={classes.menuLink}>
               {" "}
@@ -96,6 +95,7 @@ function NavBarApp() {
               onClick={() => {
                 setOpenLogin(true);
               }}
+              className="bg-orange-50"
             >
               Connexion
             </Button>

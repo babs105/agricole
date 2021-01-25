@@ -1,12 +1,25 @@
-//const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      orange: colors.orange,
+      gray: colors.gray,
+      blue: colors.lightBlue,
+      black: colors.black,
+      white: colors.white,
+      indigo: colors.indigo,
+      // red: colors.rose,
+      // pink: colors.fuchsia,
+    },
     fontFamily: {
       quicksand: ["Quicksand"],
     },
-    extend: {},
+    extend: {
+      //   spacing: {},
+      //   borderRadius: {},
+    },
   },
   variants: {
     extend: {},

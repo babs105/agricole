@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const classes = {
   heroSection:
-    "w-full sm:h-screen flex flex-col-reverse space-y-4  sm:flex-row justify-around items-center px-10 bg-green-600",
+    "w-full sm:h-screen flex flex-col-reverse space-y-4  sm:flex-row justify-around items-center px-10 bg-green-600 pb-10 ",
   textContainer: (isAnimated) =>
     `${
       isAnimated ? "scale-y-100" : "scale-y-0"

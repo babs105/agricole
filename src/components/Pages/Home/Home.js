@@ -16,11 +16,15 @@ function Home() {
         }
       >
         <HeroSection {...homeObjOne} />
+        <h1 className="text-3xl font-bold mt-16 text-indigo-600" id="service">
+          Services
+        </h1>
         <BlocTextSection {...blocDescription1} />
         <BlocTextSection {...blocDescription2} />
         <CardService />
         <FormContact />
       </main>
+      <Footer />
     </>
   );
 }

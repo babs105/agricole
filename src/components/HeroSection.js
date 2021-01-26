@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const classes = {
   heroSection:
-    "w-full h-screen flex flex-col-reverse space-y-4  sm:flex-row justify-around items-center px-10 bg-orange-600",
+    "w-full sm:h-screen flex flex-col-reverse space-y-4  sm:flex-row justify-around items-center px-10 bg-green-600",
   textContainer: (isAnimated) =>
     `${
       isAnimated ? "scale-y-100" : "scale-y-0"
@@ -12,7 +12,7 @@ const classes = {
   headlineText: "font-quicksand text-5xl font-bold text-gray-200",
   descriptionText:
     "text-center sm:text-left font-quicksand font-light max-w-lg text-xl text-gray-200",
-  imageContainer: "flex-shrink-0",
+  imageContainer: "flex-shrink-0  ",
   image: (isAnimated) =>
     `${
       isAnimated ? "scale-100" : "translate-x-full translate-y-full "

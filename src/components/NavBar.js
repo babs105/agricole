@@ -13,19 +13,19 @@ import { userService } from "../service/userService";
 
 const classes = {
   navbar:
-    "flex  relative justify-between items-center text-lg font-quicksand select-none text-grey-900 bg-orange-600 h-20 p-10 sticky top-0 z-20",
+    "flex  relative justify-between  items-center text-lg font-quicksand select-none text-grey-900 bg-green-600 h-20 px-10  sticky top-0 z-20",
 
   menuLarge: "hidden sm:flex space-x-10 items-center h-10  ",
-  logoLink: "flex space-x-3 items-baseline text-2xl font-bold",
+  logoLink: "flex space-x-3  text-2xl font-bold",
   menuItem: "",
   menuLink:
-    "text-white cursor-pointer hover:text-blue-200 border-b-4 pb-1 border-orange-600 hover:border-blue-400 ",
+    "text-white cursor-pointer hover:text-blue-200 border-b-4 pb-1 border-green-600 hover:border-blue-400 ",
   menuButton: "",
   menuIcon: "flex cursor-pointer text-2xl text-white sm:hidden ",
   menuMobile: (click) =>
     `${
       click
-        ? "flex flex-col bg-orange-600 space-y-10 py-5 items-center absolute top-20 left-0 h-screen w-full z-10 sm:hidden"
+        ? "flex flex-col bg-green-600 space-y-10 py-5 items-center absolute top-20 left-0 h-screen w-full z-10 sm:hidden"
         : "hidden"
     }`,
   modalLoginForm: (openLogin) =>
@@ -58,8 +58,8 @@ function NavBar() {
     <>
       <div className={classes.navbar}>
         <Link to="/" className={classes.logoLink} onClick={closeMobileMenu}>
-          <img src="images/logo.png" alt="logo" />
-          <h4 className="text-indigo-700"> Resto</h4>
+          <img className="object-cover h-20" src="images/LOGO.jpg" alt="logo" />
+          {/* <h4 className="text-yellow-200"> Djolof Agricole</h4> */}
         </Link>
         <div className={classes.menuIcon} onClick={handleClick}>
           {showMenuMobile ? <FaTimes /> : <FaBars />}

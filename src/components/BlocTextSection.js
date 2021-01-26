@@ -8,7 +8,7 @@ const classes = {
 
 function BlocTextSection({ headline, description }) {
   return (
-    <div data-aos="fade" className={classes.blocContainer} id="service">
+    <div data-aos="fade" className={classes.blocContainer}>
       <h2 className={classes.headLineText}>{headline}</h2>
       <p className={classes.descriptionText}>{description}</p>
     </div>

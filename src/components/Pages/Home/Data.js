@@ -1,11 +1,11 @@
 export const homeObjOne = {
   backgroundPrimary: true,
 
-  headline: "Fast Restaurant",
+  headline: "Consommons local   ",
   description:
     "Vous avez un restaurant et vous cherchez plus de visibilité. Créez votre restaurant, ajoutez vos menus et recevez plus de commandes en ligne.",
   buttonLabel: "Démarrez ici",
-  img: "images/eresto.png",
+  img: "images/djolofAgricole.jpg",
   alt: "Eresto image",
 };
 

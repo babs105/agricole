@@ -7,7 +7,6 @@ import Footer from "../../Footer";
 import FormContact from "../../FormContact";
 import NavBar from "../../NavBar";
 function Home() {
-
   return (
     <>
       <NavBar />

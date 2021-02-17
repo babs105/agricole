@@ -25,6 +25,7 @@
     "react-scripts": "^4.0.1",
     "react-scroll": "^1.8.1",
     "react-table": "^7.6.2",
+    "react-whatsapp": "^0.2.1",
     "sweetalert2": "^10.14.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "uuid": "^8.3.2",

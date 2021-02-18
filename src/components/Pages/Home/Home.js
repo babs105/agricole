@@ -55,28 +55,28 @@ function Home() {
   </div>
 </section>
          <div class="bg-gradient-to-r from-green-800 via-green-400 to-green-200 ..." id="service">
-        <h1 className="text-7xl shadow bg-gradient-to-r from-green-900 via-green-400 to-green-200 ... rounded-xl h-20 font-bold mt-16 text-red-600" >
+        <h1 className="text-7xl pt-1 pl-10 shadow bg-gradient-to-r from-green-900 via-green-400 to-green-200 ... rounded-xl h-20 font-bold mt-16 text-red-600" >
           Concepts
         </h1>
         {/* <BlocTextSection {...blocDescription1} /> */}
-        <h1 className="text-3xl pt-5 pb-1 text-xl-box text-white font-bold border-b  border-indigo-200 ">Notre challenge</h1>
-        <div class="box-border h-100 w-100 p-4 border-4 ...">
-        <div class="bg-gradient-to-r text-white from-green-800 via-green-400 to-green-200 ...">
-        <ul>
-              <li> - Rendre accessible au Sénégalais lambda tous les produits alimentaires du terroir, et s’il faut aller se ravitailler à Fongolimbi, Djolof Agricole s’y dévouera.</li>
-              <li> - Aussi une consommation saine de 5 fruits et légumes par jour doit être possible dans les ménages.</li>
-        </ul>  
+        <h1 className="text-3xl pt-5 pl-12 pb-3 text-xl-box text-white font-bold border-b  border-indigo-200 ">Notre challenge</h1>
+        <div class="box-border pt-5 pl-5 h-100 w-100 p-4 border- ...">
+          <div class="bbg-gradient-to-r pt-1 pr-1 pl-1 pb-1 text-white from-green-800 via-green-400 to-green-200 ...">
+          <ul>
+                <li> - Rendre accessible au Sénégalais lambda tous les produits alimentaires du terroir, et s’il faut aller se ravitailler à Fongolimbi, Djolof Agricole s’y dévouera.</li>
+                <li> - Aussi une consommation saine de 5 fruits et légumes par jour doit être possible dans les ménages.</li>
+          </ul> 
+          </div>
         </div>
-        </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap pt-5 justify-center">
   <div class="w-6/12 sm:w-4/12 px-1">
     <img src="images/shutterstock_471412526.jpg" />
   </div>
 </div>
         {/* <BlocTextSection {...blocDescription2} /> */} 
-        <h1 className="pt-5 pb-1 text-3xl text-white font-bold border-b  border-indigo-200 ">Pourquoi choisir DJolof agricole?</h1>     
-        <div class="box-border h-100 w-100 p-4 border-4 ...">
-        <div class="bg-gradient-to-r text-white from-green-800 via-green-400 to-green-200 ...">
+        <h1 className="text-3xl pt-5 pl-12 pb-3 text-xl-box text-white font-bold border-b  border-indigo-200  ">Pourquoi choisir DJolof agricole?</h1>     
+        <div class="box-border pt-5 pl-5 h-100 w-100 p-4 border- ...">
+        <div class="bg-gradient-to-r pt-1 pr-1 pl-1 pb-1 text-white from-green-800 via-green-400 to-green-200 ...">
           <ul>
               <li>1-  Nous assurons des produits frais et livrés à domicile ou dans votre quartier.</li>
               <li>2- Grâce aux navettes de nos camionnettes aménagées, vous aurez chez vous votre marché de proximité.</li>
@@ -84,34 +84,35 @@ function Home() {
               <li>4 En vous abonnant au service Sama Ndugu, vous êtes livrés à domicile, et avec 5 à 10% de réduction.</li>
           </ul>
           </div>
-          <div class="flex flex-wrap justify-center">
+          </div>
+          <div class="flex flex-wrap pt-5 justify-center">
   <div class="w-6/12 sm:w-4/12 px-4">
     <img src="images/unnamed.png" />
   </div>
 </div>
-        </div>
+        
         
         {/* <BlocTextSection {...blocDescription3} /> */} 
-        <h1 className="pt-5 pb-1 text-3xl text-white font-bold border-b  border-indigo-200 ">Fonctionnement</h1>  
-        <div class="box-border h-100 w-100 p-4 border-4 ...">  
-        <div class="bg-gradient-to-r text-white from-green-800 via-green-400 to-green-200 ...">    
+        <h1 className="text-3xl pt-5 pl-12 pb-3 text-xl-box text-white font-bold border-b  border-indigo-200  ">Fonctionnement</h1>  
+        <div class="box-border pt-5 pl-5 h-100 w-100 p-4 border- ...">  
+        <div class="bg-gradient-to-r pt-1 pr-1 pl-1 pb-1 text-white from-green-800 via-green-400 to-green-200 ...">    
         <p>Une à 2 fois par semaine, Djolof Agricole, votre louma de proximité sillonne ses points de vente pour distribuer</p>  
         <p>à bord de ses camionnettes aménagées toutes sortes de légumes frais à des coûts compétitifs moins chers que le marché.</p>
         </div>
         </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap pt-5 justify-center">
   <div class="w-6/12 sm:w-4/12 px-4">
     <img src="images/r.jpg" />
   </div>
 </div>
         {/* <BlocTextSection {...blocDescription3} /> */} 
-         <h1 className="pt-5 pb-1 text-3xl text-white font-bold border-b  border-indigo-200 ">Commandes spéciales</h1>   
-         <div class="box-border h-100 w-100 p-4 border-4 ..."> 
+         <h1 className="text-3xl pt-5 pl-12 pb-3 text-xl-box text-white font-bold border-b  border-indigo-200  ">Commandes spéciales</h1>   
+         <div class="box-border pt-5 pl-5 h-100 w-100 p-4 border- ..."> 
          <div class="bg-gradient-to-r text-white from-green-800 via-green-400 to-green-200 ...">
         <p>Si notre cible principale demeure les ménages,  Djolof agricole se tient à la disposition de chacun pour des commandes spéciales: événements, traiteurs, restaurants, hôtels...</p>
         </div>
         </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap pt-5 justify-center">
   <div class="w-6/12 sm:w-4/12 px-4">
     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg?crop=1.00xw:0.751xh;0,0.212xh&resize=1200:*" alt="..." class="shadow-lg rounded max-w-full h-auto align-middle border-none" />
   </div>

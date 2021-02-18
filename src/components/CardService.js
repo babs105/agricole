@@ -36,7 +36,7 @@ function CardService({ headline, description }) {
           <div className={classes.cardDescription}>{card2.description}</div>
         </div>
       </div>
-      <div data-aos="fade-up" className={classes.cardContainer}>
+      <div data-aos="fade-right" className={classes.cardContainer}>
         <div className={classes.card}>
           <div className={classes.IconContainer}>
             <MdDescription className={classes.cardIcon} />

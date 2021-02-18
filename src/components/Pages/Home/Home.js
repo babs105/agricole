@@ -48,7 +48,7 @@ function Home() {
           <img alt="content" class="object-cover object-center h-full w-full" src="images/f12e6c58-a170-4261-bb71-bc623ca97c3e 2.JPG">
           </img>
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5"></h2>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Qualité</h2>
         <p class="text-base leading-relaxed mt-2">L'espérance de vie progressera sérieusement le jour où les légumes sentiront aussi bon que le bacon.</p>
       </div>
     </div>
